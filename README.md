@@ -1,3 +1,22 @@
+### 1. 资源查询
+<hr/>
+Host:  Api Server
+
+Path: /api/v1/resources
+
+Params:
+
+| param | usage | isRequired |
+|-------------------------------------|
+| status | 是否已被订购，0-已订购 | 非必需|
+| owner  | 资源的发布者UUID | 非必需|
+| pageSize | 分页大小 | 非必需，默认100 |
+| pageNum | 当前页数 | 非必需，默认为0 |
+
+Method: GET
+
+
+
 ## xUtils简介
 * xUtils 包含了很多实用的android工具。
 * xUtils 最初源于Afinal框架，进行了大量重构，使得xUtils支持大文件上传，更全面的http请求协议支持(10种谓词)，拥有更加灵活的ORM，更多的事件注解支持且不受混淆影响...
